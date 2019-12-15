@@ -1,2 +1,2 @@
 # VicSites.Api
-APIs for VicSites
+API Project used as example for a Docker and Kubernetes course.
