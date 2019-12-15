@@ -56,7 +56,7 @@ namespace VicSites.Api.Controllers
                 _logger.LogWarning("Calling GetNumberOfVisits()");
 
                 var numberOfVisits = await _mainComponent.GetNumberOfVisits();
-                return Ok(new { numberOfVisits });
+                return Ok(new { messsage = $"number of visits: {numberOfVisits}"  });
             }
             catch (Exception ex)
             {

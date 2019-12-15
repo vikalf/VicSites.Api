@@ -3,16 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Api", "src\VicSites.Api\VicSites.Api.csproj", "{B6A5C7D8-6092-4E27-8047-DC95DA378E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VicSites.Api", "src\VicSites.Api\VicSites.Api.csproj", "{B6A5C7D8-6092-4E27-8047-DC95DA378E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Business", "src\VicSites.Business\VicSites.Business.csproj", "{38DDE7C0-30FF-49D0-81A1-F41D6B748E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VicSites.Business", "src\VicSites.Business\VicSites.Business.csproj", "{38DDE7C0-30FF-49D0-81A1-F41D6B748E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Common", "src\VicSites.Common\VicSites.Common.csproj", "{BF74DBA8-D87F-4E4E-8A40-8C384A0E4372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VicSites.Common", "src\VicSites.Common\VicSites.Common.csproj", "{BF74DBA8-D87F-4E4E-8A40-8C384A0E4372}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A896499-8074-42FB-9342-09CD04B5926F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{72A94A36-D452-4EDB-B493-BE0A4C574160}"
 	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
