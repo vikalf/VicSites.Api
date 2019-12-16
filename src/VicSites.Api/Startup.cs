@@ -33,7 +33,7 @@ namespace VicSites.Api
                 configure.SetMinimumLevel(LogLevel.Warning);
             });
 
-            SetupRsedis(services);
+            SetupRedis(services);
 
             services.AddScoped<IMainComponent, MainComponent>();
         }
