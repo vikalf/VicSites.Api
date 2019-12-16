@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A896499-807
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{72A94A36-D452-4EDB-B493-BE0A4C574160}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		.travis.yml.build = .travis.yml.build
 		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
-		Dockerfile.dev = Dockerfile.dev
+		Dockerfile.test = Dockerfile.test
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{71FCBE28-3E0E-4421-AC2A-C70407F93888}"
