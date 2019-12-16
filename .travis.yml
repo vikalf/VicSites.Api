@@ -6,4 +6,4 @@ before_install:
     - docker build -t vikalf/vicsites.api -f Dockerfile.test .
 
 script:
-    - dotnet run vikalf/vicsites.api dotnet test
+    - docker run vikalf/vicsites.api dotnet test
